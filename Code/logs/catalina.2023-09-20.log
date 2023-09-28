@@ -1,0 +1,302 @@
+20-Sep-2023 17:28:58.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+20-Sep-2023 17:28:58.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+20-Sep-2023 17:28:58.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+20-Sep-2023 17:28:58.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Sep-2023 17:28:58.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6.9
+20-Sep-2023 17:28:58.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Sep-2023 17:28:58.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/avanthi-19313/Library/Java/JavaVirtualMachines/openjdk-20.0.2/Contents/Home
+20-Sep-2023 17:28:58.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Sep-2023 17:28:58.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Sep-2023 17:28:58.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/avanthi-19313/Downloads/JSONTry
+20-Sep-2023 17:28:58.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/avanthi-19313/Downloads/apache-tomcat-9.0.7
+20-Sep-2023 17:28:58.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 17:28:58.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 17:28:58.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 17:28:58.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 17:28:58.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 17:28:58.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/avanthi-19313/Downloads/apache-tomcat-9.0.7
+20-Sep-2023 17:28:58.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/avanthi-19313/Downloads/JSONTry
+20-Sep-2023 17:28:58.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/avanthi-19313/Downloads/JSONTry/temp
+20-Sep-2023 17:28:58.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/avanthi-19313/Downloads/JSONTry/conf/logging.properties
+20-Sep-2023 17:28:58.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 17:28:58.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=62056:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Sep-2023 17:28:58.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Sep-2023 17:28:58.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Sep-2023 17:28:58.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Sep-2023 17:28:58.580 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/avanthi-19313/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Sep-2023 17:28:58.685 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:28:58.701 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 11 more
+
+20-Sep-2023 17:28:58.703 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 17:28:58.708 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 11 more
+
+20-Sep-2023 17:28:58.708 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1181 ms
+20-Sep-2023 17:28:58.775 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 17:28:58.775 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+20-Sep-2023 17:28:58.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/avanthi-19313/Downloads/JSONTry/conf/Catalina/localhost/JSONTry.xml]
+20-Sep-2023 17:28:59.793 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 17:28:59.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/avanthi-19313/Downloads/JSONTry/conf/Catalina/localhost/JSONTry.xml] has finished in [1,091] ms
+20-Sep-2023 17:28:59.877 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1166 ms
+20-Sep-2023 17:28:59.888 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.Net.bind(Net.java:545)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:634)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:393)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:275)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+20-Sep-2023 17:28:59.889 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:28:59.890 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 17:28:59.890 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Sep-2023 17:28:59.911 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Failed to clear soft references from ObjectStreamClass$Caches for web application [JSONTry]
+ java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2175)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2162)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1535)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1480)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:443)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5324)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1443)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1432)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:999)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1443)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1432)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:999)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:471)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:791)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:755)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:717)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+20-Sep-2023 17:28:59.922 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:28:59.924 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:28:59.925 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 17:28:59.926 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 17:29:22.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+20-Sep-2023 17:29:22.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+20-Sep-2023 17:29:22.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+20-Sep-2023 17:29:22.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Sep-2023 17:29:22.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6.9
+20-Sep-2023 17:29:22.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Sep-2023 17:29:22.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/avanthi-19313/Library/Java/JavaVirtualMachines/openjdk-20.0.2/Contents/Home
+20-Sep-2023 17:29:22.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Sep-2023 17:29:22.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Sep-2023 17:29:22.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/avanthi-19313/Downloads/JSONTry
+20-Sep-2023 17:29:22.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/avanthi-19313/Downloads/apache-tomcat-9.0.7
+20-Sep-2023 17:29:22.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 17:29:22.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 17:29:22.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 17:29:22.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 17:29:22.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 17:29:22.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/avanthi-19313/Downloads/apache-tomcat-9.0.7
+20-Sep-2023 17:29:22.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/avanthi-19313/Downloads/JSONTry
+20-Sep-2023 17:29:22.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/avanthi-19313/Downloads/JSONTry/temp
+20-Sep-2023 17:29:22.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/avanthi-19313/Downloads/JSONTry/conf/logging.properties
+20-Sep-2023 17:29:22.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 17:29:22.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=62062:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Sep-2023 17:29:22.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Sep-2023 17:29:22.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Sep-2023 17:29:22.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Sep-2023 17:29:22.663 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/avanthi-19313/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Sep-2023 17:29:22.755 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:29:22.775 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Sep-2023 17:29:22.787 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 17:29:22.792 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Sep-2023 17:29:22.792 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1113 ms
+20-Sep-2023 17:29:22.854 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 17:29:22.854 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+20-Sep-2023 17:29:22.868 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/avanthi-19313/Downloads/JSONTry/conf/Catalina/localhost/JSONTry.xml]
+20-Sep-2023 17:29:23.789 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 17:29:23.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/avanthi-19313/Downloads/JSONTry/conf/Catalina/localhost/JSONTry.xml] has finished in [1,014] ms
+20-Sep-2023 17:29:23.885 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:29:23.893 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 17:29:23.895 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1100 ms
+20-Sep-2023 17:29:26.184 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:29:26.191 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 17:29:26.192 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Sep-2023 17:29:26.215 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Failed to clear soft references from ObjectStreamClass$Caches for web application [JSONTry]
+ java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2175)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2162)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1535)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1480)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:443)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5324)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1443)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1432)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:999)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1443)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1432)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:999)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:471)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:791)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:755)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:856)
+
+20-Sep-2023 17:29:26.228 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:29:26.233 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 17:29:26.237 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:29:26.237 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 17:46:44.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+20-Sep-2023 17:46:44.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+20-Sep-2023 17:46:44.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+20-Sep-2023 17:46:44.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Sep-2023 17:46:44.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.6.9
+20-Sep-2023 17:46:44.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Sep-2023 17:46:44.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/avanthi-19313/Library/Java/JavaVirtualMachines/openjdk-20.0.2/Contents/Home
+20-Sep-2023 17:46:44.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Sep-2023 17:46:44.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Sep-2023 17:46:44.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/avanthi-19313/Downloads/JSONTry
+20-Sep-2023 17:46:44.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/avanthi-19313/Downloads/apache-tomcat-9.0.7
+20-Sep-2023 17:46:44.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 17:46:44.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 17:46:44.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 17:46:44.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 17:46:44.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 17:46:44.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/avanthi-19313/Downloads/apache-tomcat-9.0.7
+20-Sep-2023 17:46:44.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/avanthi-19313/Downloads/JSONTry
+20-Sep-2023 17:46:44.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/avanthi-19313/Downloads/JSONTry/temp
+20-Sep-2023 17:46:44.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/avanthi-19313/Downloads/JSONTry/conf/logging.properties
+20-Sep-2023 17:46:44.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 17:46:44.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=62131:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Sep-2023 17:46:44.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Sep-2023 17:46:44.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Sep-2023 17:46:44.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Sep-2023 17:46:44.300 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/avanthi-19313/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Sep-2023 17:46:44.392 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:46:44.408 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Sep-2023 17:46:44.417 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 17:46:44.420 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Sep-2023 17:46:44.420 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1165 ms
+20-Sep-2023 17:46:44.488 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 17:46:44.489 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+20-Sep-2023 17:46:44.501 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/avanthi-19313/Downloads/JSONTry/conf/Catalina/localhost/JSONTry.xml]
+20-Sep-2023 17:46:45.575 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2023 17:46:45.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/avanthi-19313/Downloads/JSONTry/conf/Catalina/localhost/JSONTry.xml] has finished in [1,162] ms
+20-Sep-2023 17:46:45.666 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:46:45.673 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 17:46:45.676 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1254 ms
+20-Sep-2023 22:03:19.373 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 22:03:19.384 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 22:03:19.388 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Sep-2023 22:03:19.453 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Failed to clear soft references from ObjectStreamClass$Caches for web application [JSONTry]
+ java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2175)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2162)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1535)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1480)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:443)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5324)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1443)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1432)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:999)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1443)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1432)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:999)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:471)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:791)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:755)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:856)
+
+20-Sep-2023 22:03:19.465 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 22:03:19.473 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2023 22:03:19.479 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 22:03:19.480 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

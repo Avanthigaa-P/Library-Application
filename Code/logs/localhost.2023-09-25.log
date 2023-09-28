@@ -1,0 +1,1428 @@
+25-Sep-2023 11:13:46.502 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/studentdashboard.jsp]
+System.out cannot be resolved to a type
+20: 
+21: <p>Welcome, <%= username %></p>
+22: 
+23: <% System.out.println("SessionFilter is being checked on this page."); %>
+24: 
+25: 
+26:     <h2>Welcome to the Student Dashboard</h2>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/studentdashboard.jsp]
+System.out cannot be resolved to a type
+20: 
+21: <p>Welcome, <%= username %></p>
+22: 
+23: <% System.out.println("SessionFilter is being checked on this page."); %>
+24: 
+25: 
+26:     <h2>Welcome to the Student Dashboard</h2>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 11:15:44.308 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/studentdashboard.jsp]
+System.out cannot be resolved to a type
+4: <%@ page import="com.example.model.Book" %>
+5: <%@ page import="com.google.gson.Gson" %>
+6: <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+7: <% System.out.println("SessionFilter is being checked on this page."); %>
+8: 
+9: <!DOCTYPE html>
+10: <html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/studentdashboard.jsp]
+System.out cannot be resolved to a type
+4: <%@ page import="com.example.model.Book" %>
+5: <%@ page import="com.google.gson.Gson" %>
+6: <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+7: <% System.out.println("SessionFilter is being checked on this page."); %>
+8: 
+9: <!DOCTYPE html>
+10: <html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 12:00:29.134 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [BookServlet] in context with path [/JSONTry] threw exception
+ java.lang.NullPointerException: Cannot invoke "com.example.model.Book.getTitle()" because "book" is null
+	at com.example.controller.BookServlet.doPost(BookServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 12:01:07.088 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [BookServlet] in context with path [/JSONTry] threw exception
+ java.lang.NullPointerException: Cannot invoke "com.example.model.Book.getTitle()" because "book" is null
+	at com.example.controller.BookServlet.doPost(BookServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 12:01:40.047 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [BookServlet] in context with path [/JSONTry] threw exception
+ java.lang.NullPointerException: Cannot invoke "com.example.model.Book.getTitle()" because "book" is null
+	at com.example.controller.BookServlet.doPost(BookServlet.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 13:11:39.828 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [30] in the jsp file: [/studentdashboard.jsp]
+uname cannot be resolved to a variable
+27: <div class="sidenav">
+28:         <ul>
+29:                     <div><img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" class="person-in"><br><p class="right-text">
+30:                     <br> <span style="color: #003380;font-size:20px;margin-left:60px">User ID: <% out.print(uname);%></span></p>
+31:                     </div>
+32: 
+33:                     <li><a href="groupchat.jsp">Request a Book</a></li>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [30] in the jsp file: [/studentdashboard.jsp]
+uname cannot be resolved to a variable
+27: <div class="sidenav">
+28:         <ul>
+29:                     <div><img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" class="person-in"><br><p class="right-text">
+30:                     <br> <span style="color: #003380;font-size:20px;margin-left:60px">User ID: <% out.print(uname);%></span></p>
+31:                     </div>
+32: 
+33:                     <li><a href="groupchat.jsp">Request a Book</a></li>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 13:12:07.701 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [30] in the jsp file: [/studentdashboard.jsp]
+uname cannot be resolved to a variable
+27: <div class="sidenav">
+28:         <ul>
+29:                     <div><img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" class="person-in"><br><p class="right-text">
+30:                     <br> <span style="color: #003380;font-size:20px;margin-left:60px">User ID: <% out.print(uname);%></span></p>
+31:                     </div>
+32: 
+33:                     <li><a href="#" onclick="docForm()">View All Books </a></li>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [30] in the jsp file: [/studentdashboard.jsp]
+uname cannot be resolved to a variable
+27: <div class="sidenav">
+28:         <ul>
+29:                     <div><img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" class="person-in"><br><p class="right-text">
+30:                     <br> <span style="color: #003380;font-size:20px;margin-left:60px">User ID: <% out.print(uname);%></span></p>
+31:                     </div>
+32: 
+33:                     <li><a href="#" onclick="docForm()">View All Books </a></li>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 13:12:28.785 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [30] in the jsp file: [/studentdashboard.jsp]
+uname cannot be resolved to a variable
+27: <div class="sidenav">
+28:         <ul>
+29:                     <div><img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" class="person-in"><br><p class="right-text">
+30:                     <br> <span style="color: #003380;font-size:20px;margin-left:60px">User ID: <% out.print(uname);%></span></p>
+31:                     </div>
+32: 
+33:                     <li><a href="#" onclick="docForm()">Compose mail </a></li>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [30] in the jsp file: [/studentdashboard.jsp]
+uname cannot be resolved to a variable
+27: <div class="sidenav">
+28:         <ul>
+29:                     <div><img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" class="person-in"><br><p class="right-text">
+30:                     <br> <span style="color: #003380;font-size:20px;margin-left:60px">User ID: <% out.print(uname);%></span></p>
+31:                     </div>
+32: 
+33:                     <li><a href="#" onclick="docForm()">Compose mail </a></li>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 13:12:39.461 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [30] in the jsp file: [/studentdashboard.jsp]
+uname cannot be resolved to a variable
+27: <div class="sidenav">
+28:         <ul>
+29:                     <div><img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" class="person-in"><br><p class="right-text">
+30:                     <br> <span style="color: #003380;font-size:20px;margin-left:60px">User ID: <% out.print(uname);%></span></p>
+31:                     </div>
+32: 
+33:                     <li><a href="groupchat.jsp">Group Chat</a></li>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [30] in the jsp file: [/studentdashboard.jsp]
+uname cannot be resolved to a variable
+27: <div class="sidenav">
+28:         <ul>
+29:                     <div><img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" class="person-in"><br><p class="right-text">
+30:                     <br> <span style="color: #003380;font-size:20px;margin-left:60px">User ID: <% out.print(uname);%></span></p>
+31:                     </div>
+32: 
+33:                     <li><a href="groupchat.jsp">Group Chat</a></li>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 13:13:45.168 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [26] in the jsp file: [/studentdashboard.jsp]
+Syntax error on token ";", Expression expected after this token
+23:     Integer id = (Integer) loggedInMember.getId();
+24: %>
+25: 
+26: <p>Welcome, <%= username %></p>
+27: <div class="sidenav">
+28:         <ul>
+29:                     <div><img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" class="person-in"><br><p class="right-text">
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [26] in the jsp file: [/studentdashboard.jsp]
+Syntax error on token ";", Expression expected after this token
+23:     Integer id = (Integer) loggedInMember.getId();
+24: %>
+25: 
+26: <p>Welcome, <%= username %></p>
+27: <div class="sidenav">
+28:         <ul>
+29:                     <div><img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" class="person-in"><br><p class="right-text">
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 13:47:14.980 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/viewbookrequests.jsp]
+Member cannot be resolved to a type
+15: </head>
+16: <body class="main">
+17: <%
+18:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+19:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+20:     Integer id = (Integer) loggedInMember.getId();
+21: %>
+
+
+An error occurred at line: [18] in the jsp file: [/viewbookrequests.jsp]
+Member cannot be resolved to a type
+15: </head>
+16: <body class="main">
+17: <%
+18:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+19:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+20:     Integer id = (Integer) loggedInMember.getId();
+21: %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/viewbookrequests.jsp]
+Member cannot be resolved to a type
+15: </head>
+16: <body class="main">
+17: <%
+18:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+19:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+20:     Integer id = (Integer) loggedInMember.getId();
+21: %>
+
+
+An error occurred at line: [18] in the jsp file: [/viewbookrequests.jsp]
+Member cannot be resolved to a type
+15: </head>
+16: <body class="main">
+17: <%
+18:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+19:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+20:     Integer id = (Integer) loggedInMember.getId();
+21: %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 15:01:03.254 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [An exception occurred processing [/studentdashboard.jsp] at line [23]
+
+20: <%
+21:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+22:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+23:     Integer id = (Integer) loggedInMember.getId();
+24: %>
+25:     <h2 style = "margin-top:60px;padding-left:200px">Welcome <%= username %> !!</h2>
+26: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException: Cannot invoke "com.example.model.Member.getId()" because "loggedInMember" is null
+	at org.apache.jsp.studentdashboard_jsp._jspService(studentdashboard_jsp.java:146)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 15:03:23.937 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [An exception occurred processing [/admindashboard.jsp] at line [23]
+
+20: <%
+21:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+22:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+23:     Integer id = (Integer) loggedInMember.getId();
+24: %>
+25:     <h2 style = "margin-top:60px;padding-left:200px">Welcome <%= username %> !!</h2>
+26: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException: Cannot invoke "com.example.model.Member.getId()" because "loggedInMember" is null
+	at org.apache.jsp.admindashboard_jsp._jspService(admindashboard_jsp.java:146)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 15:03:26.719 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [An exception occurred processing [/admindashboard.jsp] at line [23]
+
+20: <%
+21:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+22:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+23:     Integer id = (Integer) loggedInMember.getId();
+24: %>
+25:     <h2 style = "margin-top:60px;padding-left:200px">Welcome <%= username %> !!</h2>
+26: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException: Cannot invoke "com.example.model.Member.getId()" because "loggedInMember" is null
+	at org.apache.jsp.admindashboard_jsp._jspService(admindashboard_jsp.java:146)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 15:09:01.558 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the jsp file: [/addbook.jsp]
+Member cannot be resolved to a type
+11: 
+12: <body class="main">
+13: <%
+14:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+15:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+16:     Integer id = (Integer) loggedInMember.getId();
+17: %>
+
+
+An error occurred at line: [14] in the jsp file: [/addbook.jsp]
+Member cannot be resolved to a type
+11: 
+12: <body class="main">
+13: <%
+14:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+15:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+16:     Integer id = (Integer) loggedInMember.getId();
+17: %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the jsp file: [/addbook.jsp]
+Member cannot be resolved to a type
+11: 
+12: <body class="main">
+13: <%
+14:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+15:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+16:     Integer id = (Integer) loggedInMember.getId();
+17: %>
+
+
+An error occurred at line: [14] in the jsp file: [/addbook.jsp]
+Member cannot be resolved to a type
+11: 
+12: <body class="main">
+13: <%
+14:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+15:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+16:     Integer id = (Integer) loggedInMember.getId();
+17: %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 15:09:20.732 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the jsp file: [/addbook.jsp]
+Member cannot be resolved to a type
+11: 
+12: <body class="main">
+13: <%
+14:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+15:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+16:     Integer id = (Integer) loggedInMember.getId();
+17: %>
+
+
+An error occurred at line: [14] in the jsp file: [/addbook.jsp]
+Member cannot be resolved to a type
+11: 
+12: <body class="main">
+13: <%
+14:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+15:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+16:     Integer id = (Integer) loggedInMember.getId();
+17: %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the jsp file: [/addbook.jsp]
+Member cannot be resolved to a type
+11: 
+12: <body class="main">
+13: <%
+14:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+15:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+16:     Integer id = (Integer) loggedInMember.getId();
+17: %>
+
+
+An error occurred at line: [14] in the jsp file: [/addbook.jsp]
+Member cannot be resolved to a type
+11: 
+12: <body class="main">
+13: <%
+14:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+15:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+16:     Integer id = (Integer) loggedInMember.getId();
+17: %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 15:28:52.379 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 15:28:59.747 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 15:29:26.043 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 15:30:09.986 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 15:30:37.303 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+An error occurred at line: [17] in the jsp file: [/viewallbooks.jsp]
+Member cannot be resolved to a type
+14: </head>
+15: <body class="main">
+16: <%
+17:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+18:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+19:     Integer id = (Integer) loggedInMember.getId();
+20: %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:461)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+25-Sep-2023 16:01:34.199 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSONTry] threw exception [An exception occurred processing [/admindashboard.jsp] at line [23]
+
+20: <%
+21:     Member loggedInMember = (Member) session.getAttribute("loggedInMember");
+22:     String username = loggedInMember != null ? loggedInMember.getUsername() : "Unknown User";
+23:     Integer id = (Integer) loggedInMember.getId();
+24: %>
+25:     <h2 style = "margin-top:60px;padding-left:200px">Welcome <%= username %> !!</h2>
+26: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException: Cannot invoke "com.example.model.Member.getId()" because "loggedInMember" is null
+	at org.apache.jsp.admindashboard_jsp._jspService(admindashboard_jsp.java:146)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.filters.SessionFilter.doFilter(SessionFilter.java:29)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
